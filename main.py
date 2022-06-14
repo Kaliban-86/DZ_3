@@ -15,14 +15,22 @@ print(test_lis)
 
 print(test_lis.count('second method'))
 
-# Методы строк upper / lower / //
+# Методы строк upper / lower / split / find / isdigit
+
 test_string = 'Hellow new world'
 print(test_string)
 print(test_string.upper())
 print(test_string.lower())
 
+print(test_string.split(' '))
+print(test_string.find('new'))
+print(test_string.isdigit())
 
 # Методы множества
+
+
+
+
 
 # Меоды словарей  get / keys / items / values /
 
@@ -31,4 +39,4 @@ print(test_dict.get('name'))
 print(test_dict.keys())
 print((test_dict.items()))
 print(test_dict.values())
-#
+
