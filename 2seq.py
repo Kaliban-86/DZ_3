@@ -6,3 +6,11 @@
 # Порядок цифр в новом списке не важен
 # Пример работы: Введите элементы списка через запятую: 2,3,4,5,5,6,5,3,9
 # Результат: 2, 4, 6, 9
+
+user_numbers = input('Введите цифры через запятую: ')
+numbers_list = user_numbers.split(',')
+print(numbers_list)
+
+uniq_numbers = list(set(numbers_list))
+uniq_numbers.sort()
+print(uniq_numbers)
